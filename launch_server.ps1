@@ -1,0 +1,1 @@
+Start-Process powershell.exe -Verb RunAs -ArgumentList "-NoExit", "-Command", "Set-Location 'C:\Users\amang\Desktop\CN_project'; Write-Host '=========================================' -ForegroundColor Cyan; Write-Host '  Starting Mini-WireGuard VPN Server' -ForegroundColor Green; Write-Host '=========================================' -ForegroundColor Cyan; python server.py"
